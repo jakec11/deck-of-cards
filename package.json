@@ -1,0 +1,17 @@
+{
+  "name": "deck-of-cards",
+  "version": "0.0.1",
+  "description": "An application to initiate a deck of cards, shuffle, sort and deal cards.",
+  "main": "deck.js",
+  "dependencies": {
+    "jest": "^24.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "unit": "jest --coverage",
+    "test": "jest"
+  },
+  "author": "Jake Collins",
+  "license": "MIT"
+}
+
