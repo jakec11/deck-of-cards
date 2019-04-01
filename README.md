@@ -25,7 +25,7 @@ Followed by:
 npm test
 ```
 
-`index.js` can be used, and a sample set of function invocations have been added in. To run this, simply run node `index.js`.
+`index.js` can be used, and a sample set of function invocations have been added in. To run this, simply run `node index.js`.
 
 To add this as part of your existing code based, simply include the file, deck.js within your folder structure and use a require to import it into the necessary file, scuh as
 
@@ -38,7 +38,7 @@ const deck1 = new Deck();
 
 To initate the unit tests within the project, `run npm test`.
 
-For unit test coverage run, `npm run unit`. 
+For unit test coverage run, `npm run unit`.
 
 ## Built using
 
