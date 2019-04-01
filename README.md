@@ -7,6 +7,7 @@ A project to draw a deck of cards, and deal a set of cards.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
+
 * npm
 * node
 
@@ -16,12 +17,13 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-```
+```js
 npm install
 ```
+
 Followed by:
 
-```
+```js
 npm test
 ```
 
@@ -29,7 +31,7 @@ npm test
 
 To add this as part of your existing code based, simply include the file, deck.js within your folder structure and use a require to import it into the necessary file, scuh as
 
-```
+```js
 const Deck = require('./deck');
 const deck1 = new Deck();
 ```
@@ -50,6 +52,7 @@ For unit test coverage run, `npm run unit`.
 * **Jake Collins** - [GitHub](https://github.com/jakec11/deck-of-cards)
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Future work

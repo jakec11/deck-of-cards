@@ -47,13 +47,12 @@ module.exports = class Deck {
    */
   sort() {
     return this.drawn.sort(function(a, b) {
-        if (b.suitIndex > a.suitIndex) return -1;
-        if (b.suitIndex < a.suitIndex) return 1;
+      if (b.suitIndex > a.suitIndex) return -1;
+      if (b.suitIndex < a.suitIndex) return 1;
 
-        if (b.valueIndex > a.valueIndex) return 1;
-        if (b.valueIndex < a.valueIndex) return -1;
+      if (b.valueIndex > a.valueIndex) return 1;
+      if (b.valueIndex < a.valueIndex) return -1;
     });
-
   }
 
   /**
