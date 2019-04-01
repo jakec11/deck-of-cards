@@ -12,6 +12,11 @@
     "test": "jest"
   },
   "author": "Jake Collins",
-  "license": "MIT"
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.(js|tsx)?$": "babel-jest"
+    }
+  }
 }
 
